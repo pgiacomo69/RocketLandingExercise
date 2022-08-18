@@ -9,10 +9,9 @@ public class LandingArea : RectangleArea
     
     public LandingZone? LandingZone { get; private set; }
 
-    public LandingArea(int x, int y, int sizeX, int sizeY) :base (x,y,sizeX,sizeY)
+    public LandingArea(int sizeX, int sizeY) :base (0,0,sizeX,sizeY)
     {
-        SizeX = 100;
-        SizeY = 100;
+        
     }
 
     public void SetLandingZone(int zoneX, int zoneY, int zoneSizeX, int zoneSizeY)

@@ -11,7 +11,7 @@ public class LandingAreaTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         Assert.Equal(areaSizeX,landingArea.SizeX);
         Assert.Equal(areaSizeY,landingArea.SizeY);
     }
@@ -27,7 +27,7 @@ public class LandingAreaTest
         int zoneY = 5;
         int zoneSizeX = 10;
         int zoneSizeY = 10;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         landingArea.SetLandingZone(zoneX,zoneY,zoneSizeX,zoneSizeY);
         Assert.NotNull(landingArea.LandingZone);
         Assert.Equal(zoneX,landingArea.LandingZone.X);
@@ -46,7 +46,7 @@ public class LandingAreaTest
         int zoneY = 5;
         int zoneSizeX = 10;
         int zoneSizeY = 10;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         landingArea.SetLandingZone(zoneX,zoneY,zoneSizeX,zoneSizeY);
         Assert.Throws<LandingAreaZoneAlreadyPresentException>(() => landingArea.SetLandingZone(zoneX,zoneY,zoneSizeX,zoneSizeY));
     }
@@ -60,7 +60,7 @@ public class LandingAreaTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         Assert.Throws<LandingAreaCoordsOutOfAreaException>(() => landingArea.SetLandingZone(zoneX,zoneY,zoneSizeX,zoneSizeY));
     }
     
@@ -69,7 +69,7 @@ public class LandingAreaTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         Assert.Throws<LandingAreaZoneNotPresentException>(() => landingArea.RequestRocketLanding(10,10));
     }
     
@@ -78,7 +78,7 @@ public class LandingAreaTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         int zoneX = 5;
         int zoneY = 5;
         int zoneSizeX = 10;

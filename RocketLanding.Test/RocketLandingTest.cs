@@ -11,7 +11,7 @@ public class RocketLandingTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         int zoneX = 5;
         int zoneY = 5;
         int zoneSizeX = 10;
@@ -27,7 +27,7 @@ public class RocketLandingTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         int zoneX = 5;
         int zoneY = 5;
         int zoneSizeX = 10;
@@ -55,7 +55,7 @@ public class RocketLandingTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         int zoneX = 5;
         int zoneY = 5;
         int zoneSizeX = 10;
@@ -74,7 +74,7 @@ public class RocketLandingTest
     {
         int areaSizeX = 100;
         int areaSizeY = 100;
-        var landingArea = new LandingArea(0,0,areaSizeX,areaSizeY);
+        var landingArea = new LandingArea(areaSizeX,areaSizeY);
         int zoneX = 5;
         int zoneY = 5;
         int zoneSizeX = 10;
