@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLanding", "RocketLanding\RocketLanding.csproj", "{FB274F33-BCA4-4A29-917F-101BF701F0BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLanding.Test", "RocketLanding.Test\RocketLanding.Test.csproj", "{D2FAFE5F-3E3E-4A84-9099-31E55EE5BA3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FB274F33-BCA4-4A29-917F-101BF701F0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB274F33-BCA4-4A29-917F-101BF701F0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB274F33-BCA4-4A29-917F-101BF701F0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FAFE5F-3E3E-4A84-9099-31E55EE5BA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FAFE5F-3E3E-4A84-9099-31E55EE5BA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FAFE5F-3E3E-4A84-9099-31E55EE5BA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FAFE5F-3E3E-4A84-9099-31E55EE5BA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
